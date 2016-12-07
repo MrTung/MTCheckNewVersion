@@ -12,4 +12,4 @@
         //CustomView
      }];
      
-     ![image](https://raw.githubusercontent.com/MrTung/MTCheckNewVersion/master/MTCheckVersionDemo/74F7A3E8-F720-4824-93B6-523DCCE85106.png)
+     ![image](http://img.blog.csdn.net/20161207102251276?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZHh3Mjg3MTc4Nzkw/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
