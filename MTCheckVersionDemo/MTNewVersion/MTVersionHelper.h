@@ -10,7 +10,7 @@
 
 #import "MTVersionModel.h"
 
-typedef void(^NewVersionBlock)(MTVersionModel *appInfo);
+typedef void(^CheckVersionBlock)(MTVersionModel *appInfo);
 
 @interface MTVersionHelper : NSObject
 
@@ -24,6 +24,6 @@ typedef void(^NewVersionBlock)(MTVersionModel *appInfo);
  *
  *  @param newVersion 新版本信息回调
  */
-+(void)checkNewVersionAndCustomAlert:(NewVersionBlock)newVersion;
++(void)checkNewVersionAndCustomAlert:(CheckVersionBlock)newVersion;
 
 @end

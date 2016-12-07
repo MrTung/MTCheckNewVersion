@@ -20,6 +20,10 @@
     // Override point for customization after application launch.
     
     [MTVersionHelper checkNewVersion];
+    
+    [MTVersionHelper checkNewVersionAndCustomAlert:^(MTVersionModel *appInfo) {
+        //CustomView
+    }];
     return YES;
 }
 

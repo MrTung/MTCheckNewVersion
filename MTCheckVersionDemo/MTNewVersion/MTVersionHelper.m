@@ -23,7 +23,7 @@
     [[MTVersionHelper shardManger] checkNewVersion];
 }
 
-+(void)checkNewVersionAndCustomAlert:(NewVersionBlock)newVersion
++(void)checkNewVersionAndCustomAlert:(CheckVersionBlock)newVersion
 {
     [[MTVersionHelper shardManger] checkNewVersionAndCustomAlert:newVersion];
 }
@@ -71,7 +71,7 @@
     }];
 }
 
--(void)checkNewVersionAndCustomAlert:(NewVersionBlock)newVersion
+-(void)checkNewVersionAndCustomAlert:(CheckVersionBlock)newVersion
 {
     [self versionRequest:^(MTVersionModel *appInfo) {
         
@@ -145,7 +145,7 @@
 
  @param newVersion <#newVersion description#>
  */
--(void)versionRequest:(NewVersionBlock)newVersion
+-(void)versionRequest:(CheckVersionBlock)newVersion
 {
     [self xh_versionRequestSuccess:^(NSDictionary *responseDict) {
         
