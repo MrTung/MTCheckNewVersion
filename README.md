@@ -12,4 +12,4 @@
         //CustomView
      }];
      
-     ![image](https://github.com/MrTung/MTCheckNewVersion/blob/master/MTCheckVersionDemo/74F7A3E8-F720-4824-93B6-523DCCE85106.png?raw=true)
+     ![image](https://github.com/CoderZhuXH/XHVersion/raw/master/Demo.png)
