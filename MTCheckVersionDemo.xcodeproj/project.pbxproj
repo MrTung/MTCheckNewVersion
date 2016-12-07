@@ -15,6 +15,9 @@
 		012098ED1DF79EF000017159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012098EB1DF79EF000017159 /* LaunchScreen.storyboard */; };
 		012098F81DF79EF000017159 /* MTCheckVersionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 012098F71DF79EF000017159 /* MTCheckVersionDemoTests.m */; };
 		012099031DF79EF000017159 /* MTCheckVersionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 012099021DF79EF000017159 /* MTCheckVersionDemoUITests.m */; };
+		012099151DF79F0B00017159 /* MTVersionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 012099121DF79F0B00017159 /* MTVersionHelper.m */; };
+		012099161DF79F0B00017159 /* MTVersionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 012099141DF79F0B00017159 /* MTVersionModel.m */; };
+		012099181DF7A2F400017159 /* 74F7A3E8-F720-4824-93B6-523DCCE85106.png in Resources */ = {isa = PBXBuildFile; fileRef = 012099171DF7A2F400017159 /* 74F7A3E8-F720-4824-93B6-523DCCE85106.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		012098FE1DF79EF000017159 /* MTCheckVersionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTCheckVersionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		012099021DF79EF000017159 /* MTCheckVersionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTCheckVersionDemoUITests.m; sourceTree = "<group>"; };
 		012099041DF79EF000017159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		012099111DF79F0B00017159 /* MTVersionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTVersionHelper.h; sourceTree = "<group>"; };
+		012099121DF79F0B00017159 /* MTVersionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTVersionHelper.m; sourceTree = "<group>"; };
+		012099131DF79F0B00017159 /* MTVersionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTVersionModel.h; sourceTree = "<group>"; };
+		012099141DF79F0B00017159 /* MTVersionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTVersionModel.m; sourceTree = "<group>"; };
+		012099171DF7A2F400017159 /* 74F7A3E8-F720-4824-93B6-523DCCE85106.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "74F7A3E8-F720-4824-93B6-523DCCE85106.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,8 @@
 		012098DC1DF79EF000017159 /* MTCheckVersionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				012099171DF7A2F400017159 /* 74F7A3E8-F720-4824-93B6-523DCCE85106.png */,
+				012099101DF79F0B00017159 /* MTNewVersion */,
 				012098E01DF79EF000017159 /* AppDelegate.h */,
 				012098E11DF79EF000017159 /* AppDelegate.m */,
 				012098E31DF79EF000017159 /* ViewController.h */,
@@ -138,6 +148,17 @@
 				012099041DF79EF000017159 /* Info.plist */,
 			);
 			path = MTCheckVersionDemoUITests;
+			sourceTree = "<group>";
+		};
+		012099101DF79F0B00017159 /* MTNewVersion */ = {
+			isa = PBXGroup;
+			children = (
+				012099111DF79F0B00017159 /* MTVersionHelper.h */,
+				012099121DF79F0B00017159 /* MTVersionHelper.m */,
+				012099131DF79F0B00017159 /* MTVersionModel.h */,
+				012099141DF79F0B00017159 /* MTVersionModel.m */,
+			);
+			path = MTNewVersion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +269,7 @@
 			files = (
 				012098ED1DF79EF000017159 /* LaunchScreen.storyboard in Resources */,
 				012098EA1DF79EF000017159 /* Assets.xcassets in Resources */,
+				012099181DF7A2F400017159 /* 74F7A3E8-F720-4824-93B6-523DCCE85106.png in Resources */,
 				012098E81DF79EF000017159 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +297,9 @@
 			files = (
 				012098E51DF79EF000017159 /* ViewController.m in Sources */,
 				012098E21DF79EF000017159 /* AppDelegate.m in Sources */,
+				012099161DF79F0B00017159 /* MTVersionModel.m in Sources */,
 				012098DF1DF79EF000017159 /* main.m in Sources */,
+				012099151DF79F0B00017159 /* MTVersionHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
