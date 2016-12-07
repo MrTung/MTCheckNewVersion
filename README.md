@@ -2,7 +2,6 @@
 一句代码检测新版本
 
 
-效果图：
 ![image](https://github.com/MrTung/MTCheckNewVersion/blob/master/MTCheckVersionDemo/Screenshots/1.png?raw=true)
 
     
