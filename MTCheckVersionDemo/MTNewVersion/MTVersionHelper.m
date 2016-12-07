@@ -147,7 +147,7 @@
  */
 -(void)versionRequest:(CheckVersionBlock)newVersion
 {
-    [self xh_versionRequestSuccess:^(NSDictionary *responseDict) {
+    [self getversionRequestSuccess:^(NSDictionary *responseDict) {
         
         NSInteger resultCount = [responseDict[@"resultCount"] integerValue];
         if(resultCount==1)
@@ -179,7 +179,7 @@
  @param success success description
  @param failure failure description
  */
--(void)xh_versionRequestSuccess:(void (^)(NSDictionary * responseDict))success failure:(void (^)(NSError *error))failure{
+-(void)getversionRequestSuccess:(void (^)(NSDictionary * responseDict))success failure:(void (^)(NSError *error))failure{
     
     NSDictionary *infoDict = [[NSBundle mainBundle] infoDictionary];
     NSString *bundleId = infoDict[@"CFBundleIdentifier"];
